@@ -1,11 +1,11 @@
-# Event Tracker 
+# 📺 Event Tracker 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
 ## 🔨 Funcionalidades do projeto
 
-## ✔️ Técnicas e tecnologias utilizadas
+## 🪖 Técnicas e tecnologias utilizadas
 Se liga nessa lista de tudo que usaremos nesse treinamento:
 
 - `React`
