@@ -22,3 +22,5 @@ Depois, acesse <a href="http://localhost:3000/">http://localhost:3000/</a> no se
 ## 📚 Mais informações do curso
 
 Busque na plataforma da Alura o curso **React: gerenciando estado com Recoil** publicado na Escola Frontend.
+
+## 🎲
