@@ -25,10 +25,6 @@ function App() {
 //         "id": 1642342959
 //     }
 // ])
-
-
-
-
   const [filtro, setFiltro] = useState<Date | null>()
 
   const adicionarEvento = (evento: IEvento) => {
@@ -45,12 +41,12 @@ function App() {
     // }
     // setEventos([...eventos])
   }
-  const deletarEvento = (id: number) => {
+  // const deletarEvento = (id: number) => {
     // setEventos([...eventos.filter(evento => evento.id !== id)])
-  }
+  // }
 
   const aplicarFiltro = (data: Date | null) => {
-    // setFiltro(data)
+   setFiltro(data)
   }
 
   // const filtrados = !filtro
@@ -70,8 +66,7 @@ function App() {
           <Card>
             <ListaDeEventos 
               aoFiltroAplicado={aplicarFiltro} 
-              aoAlterarStatus={alterarStatusEvento} 
-              aoDeletarEvento={deletarEvento} 
+              aoAlterarStatus={alterarStatusEvento}
             />
           </Card>
         </div>
