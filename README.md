@@ -43,3 +43,9 @@ Busque na plataforma da Alura o curso **React: gerenciando estado com Recoil** p
 - Hook personalizado
     - Criamos um hook reaproveitável e responsável por atualizar um evento, inclusice encapsulando o recoil.
 
+## O que aprendemos:
+- Diminuir o acoplamento da aplicação
+    - Ao extrair a comunicação com o `recoil` em **hooks**, estamos desacoplados da lib em si. Se trocarmos por qualquer outra solução, não precisamos mudar o código da aplicação, somente os hooks.
+- Aumentar a coesão do código
+    - Ao remover a responsabilidade de alterar o estado para os hooks, nossos componentes ficam mais coesos e não precisamo se preocupar com implementações relacionadas a manipular o estado.
+
