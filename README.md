@@ -13,6 +13,7 @@ Se liga nessa lista de tudo que usaremos nesse treinamento:
 - `React Router`
 - `TypeScript`
 - `MUI`
+- `JSON Server`
 
 ## Abrir e rodar o projeto
 Para abrir e rodar o projeto, execute `npm i` para instalar as dependências e `npm start` para inicar o projeto.
@@ -48,4 +49,9 @@ Busque na plataforma da Alura o curso **React: gerenciando estado com Recoil** p
     - Ao extrair a comunicação com o `recoil` em **hooks**, estamos desacoplados da lib em si. Se trocarmos por qualquer outra solução, não precisamos mudar o código da aplicação, somente os hooks.
 - Aumentar a coesão do código
     - Ao remover a responsabilidade de alterar o estado para os hooks, nossos componentes ficam mais coesos e não precisamo se preocupar com implementações relacionadas a manipular o estado.
+- Derivar estados com seletores
+    - Mantendo a responsabilidade bem definida para cada parte do sistema.
+- Adicionar funcionalidades de forma incremental
+    - Primeiro, colocamos o fitro para funcionar. Em seguida, melhoramos a implementação e extraímos a lógica.
+- Usamos [json-server](https://github.com/typicode/json-server#getting-started) para emular um servidor de dados no formato de uma API REST. 
 

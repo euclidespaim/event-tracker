@@ -1,10 +1,10 @@
+import { eventosFiltradoState } from './../seletores/index';
 import { useRecoilValue } from 'recoil';
-import { listaDeEventosState } from '../atom';
 
 
 const useListaDeEventos = () => {
 
-    return useRecoilValue(listaDeEventosState)
+    return useRecoilValue(eventosFiltradoState)
 
 }
 export default useListaDeEventos;
