@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import useAdcionarEvento from "../../state/hooks/useAdcionarEvento";
-import { obterId } from "../../utils/util";
 import style from "./Formulario.module.scss";
 
 const Formulario: React.FC = () => {

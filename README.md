@@ -53,5 +53,12 @@ Busque na plataforma da Alura o curso **React: gerenciando estado com Recoil** p
     - Mantendo a responsabilidade bem definida para cada parte do sistema.
 - Adicionar funcionalidades de forma incremental
     - Primeiro, colocamos o fitro para funcionar. Em seguida, melhoramos a implementação e extraímos a lógica.
-- Usamos [json-server](https://github.com/typicode/json-server#getting-started) para emular um servidor de dados no formato de uma API REST. 
+- Usamos [json-server](https://github.com/typicode/json-server#getting-started) para emular um servidor de dados no formato de uma API REST.
+- Usamos [TypeScript](https://www.typescriptlang.org/) para garantir que o código é escrito em linguagem de programação orientada a objetos. 
+- Criar seletores assíncronos
+    -- Integrando assim o recoil com uma API REST. 
+- Definir um valor inicial dinâmico para o átomo
+    - Ao definir o seletor async como valor padrão para o átomo, todos os eventos iniciais passam a vir da API.
+- Criar uma ferramenta de depuração
+    - Agora fica mais simples de entender as mudanças no estado, uma vez que implementamos um componente que faz log cada vez que o estado é manipulado
 
